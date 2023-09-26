@@ -10,8 +10,9 @@ function Intro() {
     <section id='intro'>
       <div className="introContent">
         <span className="hello">Hello,</span>
-        <span className="introText">I'm <span className="introName">Siddharth</span> <br /> Website Designer</span>
+        <span className="introText">I'm <span className="introName">Siddharth</span> <br /> Front End Developer</span>
         <p className="introPara">I am a skilled web designer with experience in creating visually appealing websites</p>
+        
         <Link><button className="btn"> <img src={btnImg} alt="Hire Me" className='btnImg'/> Hire Me </button></Link>
       </div>
       <img src={bg} alt="Profile" className="bg"/>
